@@ -395,9 +395,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Featured Services
+# Featured Benefits
 --------------------------------------------------------------*/
-.featured-services .icon-box {
+.featured-benefits .icon-box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -408,7 +408,7 @@ section {
   z-index: 1;
 }
 
-.featured-services .icon-box::before {
+.featured-benefits .icon-box::before {
   content: '';
   position: absolute;
   background: #d9f1f2;
@@ -420,44 +420,44 @@ section {
   z-index: -1;
 }
 
-.featured-services .icon-box:hover::before {
+.featured-benefits .icon-box:hover::before {
   background: #3fbbc0;
   top: 0;
   border-radius: 0px;
 }
 
-.featured-services .icon {
+.featured-benefits .icon {
   margin-bottom: 15px;
 }
 
-.featured-services .icon i {
+.featured-benefits .icon i {
   font-size: 48px;
   line-height: 1;
   color: #1977cc;
   transition: all 0.3s ease-in-out;
 }
 
-.featured-services .title {
+.featured-benefits .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.featured-services .title a {
+.featured-benefits .title a {
   color: #111;
 }
 
-.featured-services .description {
+.featured-benefits .description {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
 }
 
-.featured-services .icon-box:hover .title a, .featured-services .icon-box:hover .description {
+.featured-benefits .icon-box:hover .title a, .featured-benefits .icon-box:hover .description {
   color: #fff;
 }
 
-.featured-services .icon-box:hover .icon i {
+.featured-benefits  .icon-box:hover .icon i {
   color: #fff;
 }
 /*--------------------------------------------------------------
@@ -528,13 +528,13 @@ section {
   font-size: 14px;
 }
 
- .about .video-box img{
+  .about .image-box img{
   width: 350px;
   height: 365px;
   border-radius: 15px;
 } 
 
-.about .play-btn {
+/* .about .play-btn {
   width: 94px;
   height: 94px;
   background: radial-gradient(#1977cc 50%, rgba(25, 119, 204, 0.4) 52%);
@@ -544,9 +544,9 @@ section {
   left: calc(50% - 47px);
   top: calc(50% - 47px);
   overflow: hidden;
-}
+} */
 
-.about .play-btn::after {
+/* .about .play-btn::after {
   content: '';
   position: absolute;
   left: 50%;
@@ -559,9 +559,9 @@ section {
   border-left: 15px solid #fff;
   z-index: 100;
   transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
+} */
 
-.about .play-btn::before {
+/* .about .play-btn::before {
   content: '';
   position: absolute;
   width: 120px;
@@ -577,9 +577,9 @@ section {
 .about .play-btn:hover::after {
   border-left: 15px solid #1977cc;
   transform: scale(20);
-}
+} */
 
-.about .play-btn:hover::before {
+/* .about .play-btn:hover::before {
   content: '';
   position: absolute;
   left: 50%;
@@ -595,7 +595,7 @@ section {
   -webkit-animation: none;
   animation: none;
   border-radius: 0;
-}
+} */
 
 @-webkit-keyframes pulsate-btn {
   0% {
@@ -620,26 +620,26 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Counts
+# Details
 --------------------------------------------------------------*/
-.counts {
+.details {
   padding-bottom: 30px;
 }
 
-.counts .count-box {
+.details .detail-box {
   box-shadow: -10px -5px 40px 0 rgba(0, 0, 0, 0.1);
   padding: 30px;
   width: 100%;
 }
 
-.counts .count-box i {
+.details .detail-box i {
   display: block;
   font-size: 30px;
   color: #1977cc;
   float: left;
 }
 
-.counts .count-box span {
+.details .detail-box span {
   font-size: 42px;
   line-height: 24px;
   display: block;
@@ -648,14 +648,14 @@ section {
   margin-left: 50px;
 }
 
-.counts .count-box p {
+.details .detail-box p {
   padding: 30px 0 0 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
 }
 
-.counts .count-box a {
+.details .detail-box a {
   font-weight: 600;
   display: block;
   margin-top: 20px;
@@ -665,7 +665,7 @@ section {
   transition: ease-in-out 0.3s;
 }
 
-.counts .count-box a:hover {
+.details .detail-box a:hover {
   color: #3fbbc0;
 }
 
@@ -751,7 +751,7 @@ section {
 /*--------------------------------------------------------------
 # Appointments
 --------------------------------------------------------------*/
-.appointment .php-email-form {
+/* .appointment .php-email-form {
   width: 100%;
 }
 
@@ -769,9 +769,9 @@ section {
 
 .appointment .php-email-form input:focus, .appointment .php-email-form textarea:focus, .appointment .php-email-form select:focus {
   border-color: #1977cc;
-}
+} */
 
-.appointment .php-email-form input, .appointment .php-email-form select {
+/* .appointment .php-email-form input, .appointment .php-email-form select {
   height: 44px;
 }
 
@@ -790,48 +790,48 @@ section {
 
 .appointment .php-email-form button[type="submit"]:hover {
   background: #3fbbc0;
-}
+} */
 
 /*--------------------------------------------------------------
-# Doctors
+# Portfolio
 --------------------------------------------------------------*/
-.doctors {
+.portfolio {
   background: #fff;
 }
 
-.doctors .member {
+.portfolio .member {
   position: relative;
   box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08);
   padding: 30px;
   border-radius: 10px;
 }
 
-.doctors .member .pic {
+.portfolio .member .pic {
   overflow: hidden;
   width: 100%;
   border-radius: 50%;
 }
 
-.doctors .member .pic img {
+.portfolio .member .pic img {
   transition: ease-in-out 0.3s;
 }
 
-.doctors .member:hover img {
+.portfolio .member:hover img {
   transform: scale(1.1);
 }
 
-.doctors .member .member-info {
+.portfolio .member .member-info {
   padding-left: 30px;
 }
 
-.doctors .member h4 {
+.portfolio .member h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
   color: #2c4964;
 }
 
-.doctors .member span {
+.portfolio .member span {
   display: block;
   font-size: 15px;
   padding-bottom: 10px;
@@ -839,7 +839,7 @@ section {
   font-weight: 500;
 }
 
-.doctors .member span::after {
+.portfolio .member span::after {
   content: '';
   position: absolute;
   display: block;
@@ -850,19 +850,19 @@ section {
   left: 0;
 }
 
-.doctors .member p {
+.portfolio .member p {
   margin: 10px 0 0 0;
   font-size: 14px;
 }
 
-.doctors .member .social {
+.portfolio .member .social {
   margin-top: 12px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
-.doctors .member .social a {
+.portfolio .member .social a {
   transition: ease-in-out 0.3s;
   display: flex;
   align-items: center;
@@ -873,17 +873,17 @@ section {
   background: #a0bcd5;
 }
 
-.doctors .member .social a i {
+.portfolio .member .social a i {
   color: #fff;
   font-size: 16px;
   margin: 0 2px;
 }
 
-.doctors .member .social a:hover {
+.portfolio .member .social a:hover {
   background: #3fbbc0;
 }
 
-.doctors .member .social a + a {
+.portfolio .member .social a + a {
   margin-left: 8px;
 }
 
